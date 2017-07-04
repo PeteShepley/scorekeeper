@@ -1,0 +1,93 @@
+*, html {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 0;
+
+  background-color: white;
+  font-size: 14px;
+  padding: 5px 20px;
+  margin: 2px 5px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+
+  font-size: 2vw;
+  margin: 10px;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 1px solid blue;
+
+  outline: none;
+}
+
+.application-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .image {
+  background-image: url('moose-farkle.jpg');
+  background-position-x: -10px;
+  background-position-y: -10px;
+  width: 175px;
+  height: 150px;
+}
+
+.score-cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.team-name, .score-card input, .total, .score, .plus-score {
+  font-size: 2vw;
+  margin: 5px 15px;
+}
+
+.score-card input {
+  width: 50%;
+}
+
+.plus-score {
+  margin-left: -0.4vw;
+}
+
+.team-name {
+  border-bottom: 1px solid gray;
+}
+
+.total {
+  border-top: 1px solid black;
+  padding-top: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
