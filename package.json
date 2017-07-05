@@ -1,7 +1,8 @@
 {
-  "name": "test-react",
+  "name": "scorekeeper",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://peteley.co/scorekeeper/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
